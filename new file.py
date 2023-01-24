@@ -1,7 +1,7 @@
 i = 5
-while i < 10:
-    i += 1
-    if i == 6:
+while i <= 10:
+    i += 2
+    if i == 7:
         continue
     print(i)
 print('Цикл закончен')
