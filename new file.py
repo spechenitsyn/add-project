@@ -1,6 +1,8 @@
 def func(i):
     if i > 5:
         print('100')
+    elif i == 0:
+        print('Ошибка')
     else:
         print('200')
 
